@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container no-select">
+        <div class="topic">
+            <h2>Welcome!</h2>
+                <p>Prepare for an adventure of knowledge and fun! 🚀</p>
+                <select name="" id="topic-option">
+                    <option value="choose">Choose a topic 📝</option>
+                    <option value="constitutionApi">Indian Constitution</option>
+                    <!-- <option value="webdevApi">Web Developement</option> -->
+                </select>
+                <div class="note">
+                    <h3>📌Helpful Tips</h3>
+                    <p><i class="fa-solid fa-angles-right"></i>Do Not Refresh During Quiz</p>
+                    <p><i class="fa-solid fa-angles-right"></i>Same Question Can Repeat</p>
+                </div>
+                <button class="topic-submit hide">Submit</button>
+        </div>
+        <div class="attempt hide">
+            <form action="">
+                <label for="num">How many questions you want ?</label>
+                <input class="select-num" type="text" name="" id="num" value="10" maxlength="3">
+              
+                <div class="radio-con">
+                    <p>Answer before</p>
+                    <div class="radio-btn">
+                        <input type="radio" name="timer" id="ten" class="timer-input" value="10">
+                        <label for="ten">10 sec</label>
+                    </div>
+                    <div class="radio-btn">
+                        <input type="radio" name="timer" id="thirty" class="timer-input" value="30" checked>
+                        <label for="thirty">30 sec</label>
+                    </div>
+                    
+                    <div class="radio-btn">
+                        <input type="radio" name="timer" id="sixty" class="timer-input" value="60" >
+                        <label for="sixty">60 sec</label>
+                    </div>
+                </div>
+            </form>
+            <button class="setnum">Set</button>
+        </div>
+        <div class="question-page hide">
+            <div class="heading">
+                <p class="question-no"></p>
+                <p class="timer"></p>
+            </div>
+            <h2 class="question">
+            </h2>
+            <ul class="options">
+            </ul>
+
+            <!-- <p class="answer">hi</p> -->
+            
+            <button class="next">next</button>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
