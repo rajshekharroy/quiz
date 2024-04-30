@@ -14,7 +14,9 @@ const topicSubmit = document.querySelector('.topic-submit')
 const topicOption = document.querySelectorAll('#topic-option')
 const topic = document.querySelector('.topic')
 const constitutionApi ="https://raw.githubusercontent.com/rajshekharroy/quiz_apis/main/indian_constitution.json";
+const ancientHistory = "https://raw.githubusercontent.com/rajshekharroy/quiz_apis/main/ancient_history_world_%26_india.json"
 const webdevApi = "https://raw.githubusercontent.com/rajshekharroy/quiz_apis/main/webdev.json";
+const mathApi = "https://raw.githubusercontent.com/rajshekharroy/quiz_apis/main/math.json"
 let questionData = [];
 let updateNum = 0;
 let score = 0;
@@ -22,6 +24,13 @@ let timerInterval;
 let questionNumber = 1;
 let currentIndex;
 let selectedValue;
+
+
+
+
+
+
+
 
 topicOption.forEach((topic) => {
   topic.addEventListener("change", (evt)=>{
@@ -78,10 +87,36 @@ function startTimer(){
   }, 1000);
 }
 
-const quiz = async () => {
-  const data = await (await fetch(constitutionApi)).json();
-  questionData = data;
-};
+// const quiz = async () => {
+//   const data = await (await fetch(constitutionApi)).json();
+//   questionData = data;
+// };
+
+topicOption.forEach((topic)=>{
+  topic.addEventListener("change", async (evt) => {
+    const selectedApi = evt.target.value;
+    let apiUrl;
+    
+    if (selectedApi === "constitutionApi") {
+      apiUrl = constitutionApi;
+    } else if (selectedApi === "ancientHistory"){
+      apiUrl = ancientHistory;
+    } else if (selectedApi === "webdevApi") {
+      apiUrl = webdevApi;
+    }else if (selectedApi === "mathApi"){
+      apiUrl = mathApi;
+    }
+    const data = await (await fetch(apiUrl)).json();
+    questionData = data;
+  })
+})
+
+
+
+
+
+
+
 
 const getUniqueIndex = (questionData, answeredQuestions) => {
   let randomIndex;
@@ -178,5 +213,5 @@ optionContainer.addEventListener("click",(evt)=>{
       answered.push(currentQuestion[currentQuestion.answer])
     }
 })
-  quiz();
+  // quiz();
 

@@ -1,0 +1,447 @@
+[
+  {
+    "question": "What is the smallest prime number?",
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4",
+    "answer": "B"
+  },
+
+  {
+    "question": "What is the value of 5 + 7 - 3 * 2?",
+    "A": "10",
+    "B": "12",
+    "C": "8",
+    "D": "6",
+    "answer": "A"
+  },
+
+  {
+    "question": "If a square has a side length of 4 units, what is its perimeter?",
+    "A": "12 units",
+    "B": "16 units",
+    "C": "8 units",
+    "D": "4 units",
+    "answer": "B"
+  },
+
+  {
+    "question": "How many sides does a hexagon have?",
+    "A": "5",
+    "B": "6",
+    "C": "7",
+    "D": "8",
+    "answer": "B"
+  },
+
+  {
+    "question": "What is the value of 3^2 + 4^2?",
+    "A": "9",
+    "B": "12",
+    "C": "25",
+    "D": "7",
+    "answer": "C"
+  },
+
+  {
+    "question": "If a triangle has angles measuring 45°, 45°, and 90°, what type of triangle is it?",
+    "A": "Equilateral",
+    "B": "Isosceles",
+    "C": "Scalene",
+    "D": "Right",
+    "answer": "D"
+  },
+
+  {
+    "question": "What is the value of 8 ÷ 2(2 + 2)?",
+    "A": "16",
+    "B": "8",
+    "C": "12",
+    "D": "4",
+    "answer": "B"
+  },
+
+  {
+    "question": "If x = 3 and y = 4, what is the value of x² + y²?",
+    "A": "5",
+    "B": "7",
+    "C": "9",
+    "D": "25",
+    "answer": "D"
+  },
+
+  {
+    "question": "What is the area of a rectangle with length 6 units and width 4 units?",
+    "A": "10 square units",
+    "B": "20 square units",
+    "C": "24 square units",
+    "D": "12 square units",
+    "answer": "C"
+  },
+
+  {
+    "question": "What is the next prime number after 7?",
+    "A": "8",
+    "B": "9",
+    "C": "10",
+    "D": "11",
+    "answer": "D"
+  },
+  {
+    "question": "If a rectangle has a perimeter of 20 units and one side measures 5 units, what is the length of the other side?",
+    "A": "5 units",
+    "B": "10 units",
+    "C": "15 units",
+    "D": "20 units",
+    "answer": "B"
+  },
+
+  {
+    "question": "What is the value of √9?",
+    "A": "3",
+    "B": "6",
+    "C": "9",
+    "D": "27",
+    "answer": "A"
+  },
+
+  {
+    "question": "If a circle has a radius of 5 units, what is its diameter?",
+    "A": "10 units",
+    "B": "15 units",
+    "C": "20 units",
+    "D": "25 units",
+    "answer": "A"
+  },
+
+  {
+    "question": "What is the sum of the interior angles of a triangle?",
+    "A": "90 degrees",
+    "B": "180 degrees",
+    "C": "270 degrees",
+    "D": "360 degrees",
+    "answer": "B"
+  },
+
+  {
+    "question": "What is the value of 2 × 3 + 4 ÷ 2?",
+    "A": "4",
+    "B": "5",
+    "C": "6",
+    "D": "7",
+    "answer": "B"
+  },
+
+  {
+    "question": "If x = 4 and y = 6, what is the value of 2x + y?",
+    "A": "10",
+    "B": "14",
+    "C": "16",
+    "D": "20",
+    "answer": "B"
+  },
+
+  {
+    "question": "What is the value of 2^3?",
+    "A": "4",
+    "B": "6",
+    "C": "8",
+    "D": "16",
+    "answer": "C"
+  },
+
+  {
+    "question": "If a square has an area of 25 square units, what is the length of one of its sides?",
+    "A": "5 units",
+    "B": "10 units",
+    "C": "15 units",
+    "D": "20 units",
+    "answer": "A"
+  },
+
+  {
+    "question": "What is the next number in the sequence: 2, 4, 8, 16, ...?",
+    "A": "24",
+    "B": "32",
+    "C": "64",
+    "D": "128",
+    "answer": "C"
+  },
+
+  {
+    "question": "What is the value of 7² - 4²?",
+    "A": "33",
+    "B": "49",
+    "C": "45",
+    "D": "65",
+    "answer": "A"
+  },
+  {
+    "question": "If a square has a perimeter of 16 units, what is the length of one of its sides?",
+    "A": "2 units",
+    "B": "4 units",
+    "C": "6 units",
+    "D": "8 units",
+    "answer": "B"
+  },
+
+  {
+    "question": "What is the value of 10 - (3 + 2) × 2?",
+    "A": "2",
+    "B": "6",
+    "C": "10",
+    "D": "14",
+    "answer": "A"
+  },
+
+  {
+    "question": "If a triangle has sides measuring 5 units, 12 units, and 13 units, what type of triangle is it?",
+    "A": "Equilateral",
+    "B": "Isosceles",
+    "C": "Scalene",
+    "D": "Right",
+    "answer": "D"
+  },
+
+  {
+    "question": "What is the value of 2 + 3 × 4?",
+    "A": "14",
+    "B": "20",
+    "C": "32",
+    "D": "26",
+    "answer": "D"
+  },
+
+  {
+    "question": "If a square has an area of 36 square units, what is the length of one of its sides?",
+    "A": "3 units",
+    "B": "6 units",
+    "C": "9 units",
+    "D": "12 units",
+    "answer": "B"
+  },
+
+  {
+    "question": "What is the sum of the first five prime numbers?",
+    "A": "10",
+    "B": "15",
+    "C": "20",
+    "D": "25",
+    "answer": "A"
+  },
+
+  {
+    "question": "What is the value of 4 ÷ 1/2?",
+    "A": "2",
+    "B": "4",
+    "C": "6",
+    "D": "8",
+    "answer": "D"
+  },
+
+  {
+    "question": "If x = 2 and y = 3, what is the value of xy + x?",
+    "A": "5",
+    "B": "7",
+    "C": "8",
+    "D": "10",
+    "answer": "C"
+  },
+
+  {
+    "question": "What is the value of 3^3?",
+    "A": "6",
+    "B": "9",
+    "C": "27",
+    "D": "81",
+    "answer": "C"
+  },
+
+  {
+    "question": "What is the next number in the sequence: 1, 4, 9, 16, ...?",
+    "A": "25",
+    "B": "36",
+    "C": "49",
+    "D": "64",
+    "answer": "C"
+  },
+  {
+    "question": "What is the value of 7 × (4 + 3) ÷ 2?",
+    "A": "14",
+    "B": "16",
+    "C": "21",
+    "D": "28",
+    "answer": "C"
+  },
+
+  {
+    "question": "If a square has an area of 49 square units, what is the length of one of its sides?",
+    "A": "5 units",
+    "B": "6 units",
+    "C": "7 units",
+    "D": "8 units",
+    "answer": "C"
+  },
+
+  {
+    "question": "What is the value of 5^2 - 3^2?",
+    "A": "16",
+    "B": "20",
+    "C": "22",
+    "D": "24",
+    "answer": "A"
+  },
+
+  {
+    "question": "What is the value of 6 ÷ (2 + 1) × 4?",
+    "A": "4",
+    "B": "8",
+    "C": "12",
+    "D": "24",
+    "answer": "B"
+  },
+
+  {
+    "question": "If x = 5 and y = 2, what is the value of 2x - 3y?",
+    "A": "4",
+    "B": "8",
+    "C": "10",
+    "D": "12",
+    "answer": "A"
+  },
+
+  {
+    "question": "What is the value of 12 ÷ 3 × 2?",
+    "A": "4",
+    "B": "6",
+    "C": "8",
+    "D": "12",
+    "answer": "C"
+  },
+
+  {
+    "question": "If a triangle has sides measuring 6 units, 8 units, and 10 units, what type of triangle is it?",
+    "A": "Equilateral",
+    "B": "Isosceles",
+    "C": "Scalene",
+    "D": "Right",
+    "answer": "D"
+  },
+
+  {
+    "question": "What is the value of 3² + 4²?",
+    "A": "7",
+    "B": "9",
+    "C": "25",
+    "D": "49",
+    "answer": "C"
+  },
+
+  {
+    "question": "If a square has a perimeter of 36 units, what is the length of one of its sides?",
+    "A": "6 units",
+    "B": "9 units",
+    "C": "12 units",
+    "D": "18 units",
+    "answer": "B"
+  },
+
+  {
+    "question": "What is the next number in the sequence: 2, 6, 12, 20, ...?",
+    "A": "24",
+    "B": "30",
+    "C": "36",
+    "D": "42",
+    "answer": "B"
+  },
+  {
+    "question": "What is the value of 4 × (3 - 1) + 5 ÷ 2?",
+    "A": "7",
+    "B": "8",
+    "C": "9",
+    "D": "10",
+    "answer": "B"
+  },
+
+  {
+    "question": "If a rectangle has a length of 8 units and a width of 3 units, what is its perimeter?",
+    "A": "11 units",
+    "B": "14 units",
+    "C": "16 units",
+    "D": "24 units",
+    "answer": "C"
+  },
+
+  {
+    "question": "What is the value of 5² + 3³?",
+    "A": "80",
+    "B": "88",
+    "C": "92",
+    "D": "100",
+    "answer": "B"
+  },
+
+  {
+    "question": "If x = 4 and y = 7, what is the value of xy - x?",
+    "A": "17",
+    "B": "24",
+    "C": "25",
+    "D": "28",
+    "answer": "A"
+  },
+
+  {
+    "question": "What is the value of 9 ÷ 3 × 2?",
+    "A": "4",
+    "B": "6",
+    "C": "9",
+    "D": "12",
+    "answer": "B"
+  },
+
+  {
+    "question": "If a square has an area of 64 square units, what is the length of one of its sides?",
+    "A": "6 units",
+    "B": "7 units",
+    "C": "8 units",
+    "D": "9 units",
+    "answer": "C"
+  },
+
+  {
+    "question": "What is the value of 3 + 5 × (6 - 2)?",
+    "A": "23",
+    "B": "28",
+    "C": "30",
+    "D": "35",
+    "answer": "B"
+  },
+
+  {
+    "question": "If a triangle has angles measuring 60°, 60°, and 60°, what type of triangle is it?",
+    "A": "Equilateral",
+    "B": "Isosceles",
+    "C": "Scalene",
+    "D": "Right",
+    "answer": "A"
+  },
+
+  {
+    "question": "What is the value of 4^2 - 2^3?",
+    "A": "8",
+    "B": "12",
+    "C": "14",
+    "D": "16",
+    "answer": "C"
+  },
+
+  {
+    "question": "If a square has a perimeter of 24 units, what is the length of one of its sides?",
+    "A": "4 units",
+    "B": "6 units",
+    "C": "8 units",
+    "D": "12 units",
+    "answer": "B"
+  }
+]
