@@ -9,7 +9,6 @@ const optionContainer = document.querySelector(".options");
 const question_no = document.querySelector(".question-no");
 const next = document.querySelector(".next");
 const timerInput = document.querySelectorAll('.timer-input')
-// const answercon = document.querySelector('.answer')
 const topicSubmit = document.querySelector('.topic-submit')
 const topicOption = document.querySelectorAll('#topic-option')
 const topic = document.querySelector('.topic')
@@ -24,13 +23,6 @@ let timerInterval;
 let questionNumber = 1;
 let currentIndex;
 let selectedValue;
-
-
-
-
-
-
-
 
 topicOption.forEach((topic) => {
   topic.addEventListener("change", (evt)=>{
@@ -86,12 +78,6 @@ function startTimer(){
     }
   }, 1000);
 }
-
-// const quiz = async () => {
-//   const data = await (await fetch(constitutionApi)).json();
-//   questionData = data;
-// };
-
 topicOption.forEach((topic)=>{
   topic.addEventListener("change", async (evt) => {
     const selectedApi = evt.target.value;
@@ -111,13 +97,6 @@ topicOption.forEach((topic)=>{
   })
 })
 
-
-
-
-
-
-
-
 const getUniqueIndex = (questionData, answeredQuestions) => {
   let randomIndex;
   do {
@@ -134,7 +113,6 @@ const showQuestion = () => {
 
   currentIndex = getUniqueIndex(questionData, answeredQuestions);
   const currentQuestion = questionData[currentIndex];
-  // answercon.innerText = currentQuestion[currentQuestion.answer]
   
   questionContainer.innerText = currentQuestion.question;
   optionContainer.innerHTML = `
@@ -181,8 +159,6 @@ if(questionNumber <= updateNum){
 firstClick1 = true;
 }
 
-
-
 next.addEventListener("click",nextQuestion);
 let firstClick = true;
 let firstClick1 = true;
@@ -213,5 +189,4 @@ optionContainer.addEventListener("click",(evt)=>{
       answered.push(currentQuestion[currentQuestion.answer])
     }
 })
-  // quiz();
 
